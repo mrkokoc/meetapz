@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -28,15 +28,15 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li>
-                <Link to='/about'>
-                  <i className="fa fa-info" aria-hidden="true"></i>
-                  About
-                </Link>
-              </li>
-              <li>
                 <Link to="/meetups/add">
                   <i className='fa fa-plus'></i>
                   Add Meetup
+                </Link>
+              </li>
+              <li>
+                <Link to='/about'>
+                  <i className="fa fa-question-circle" aria-hidden="true"></i>
+                  About
                 </Link>
               </li>
             </ul>

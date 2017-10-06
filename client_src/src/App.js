@@ -11,7 +11,7 @@ const App = () => (
       <Main/>
     </div>
     <div className='fixed-action-btn'>
-      <Link to='/meetups/add' className='btn-floating bnt-large waves-effect waves-light red'>
+      <Link to='/meetups/add' className='btn-floating btn-large waves-effect waves-light red'>
         <i className='fa fa-plus' aria-hidden='true'></i>
       </Link>
     </div>
